@@ -1,0 +1,481 @@
+.container{
+    width:100%;
+    height:100%;
+}
+body,html{
+    margin: 0%;
+    padding: 0%;
+}
+*{
+    box-sizing: border-box;
+}
+.containerstart{
+    background: url(./images/bg-hero-desktop.svg);
+    background-color: #EDFBFE;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.contop{
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 4rem 0 4rem;
+    align-items: center;
+}
+.contop>button{
+    height: 40px;
+    width: 150px;
+    border-radius: 40px;
+    color:hsl(192, 100%, 9%);
+    background-color: #fff;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family: 'Open Sans', sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: none;
+}
+.contbottom{
+    padding-top: 4.5%;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.bottomright{
+    width: 100%;
+    height: 100%;
+    padding-top: 3%;
+
+
+}
+.bottomright>h2{
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1.08px;
+    font-weight: 600;
+    width: 70%;
+    color: hsl(192, 100%, 9%);
+    font-size: 38px;
+    text-transform: capitalize;
+}
+.bottomright>p{
+    width: 65%;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: hsl(192, 100%, 9%);
+    font-weight: 500;
+}
+.bottomright>button{
+    border-radius: 40px;
+    height: 50px;
+    width: 240px;
+    background: hsl(322, 100%, 66%);
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    text-transform: capitalize;
+}
+@media only screen and (max-width:935px) {
+    .bottomright>h2{
+        font-size: 28px;
+        font-weight: 600;
+    }
+    .bottomright>p{
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .bottomright>button{
+        height: 40px;
+        width: 220px;
+    }
+}
+@media only screen and (max-width:721px) {
+    .bottomright>h2{
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .bottomright>p{
+        font-size: 11px;
+        font-weight: 400;
+    }
+    .bottomright>button{
+        height: 40px;
+        font-size: 10px;
+        width: 130px;
+    }
+}
+@media only screen and (max-width:376px) {
+    .bottomright>h2{
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .bottomright>p{
+        font-size: 7px;
+        font-weight: 400;
+    }
+    .bottomright>button{
+        height: 20px;
+        font-size: 8px;
+        width: 100px;
+    }
+}
+@media only screen and (max-width:375px) {
+    .bottomright>h2{
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .bottomright>p{
+        font-size: 5px;
+        font-weight: 400;
+    }
+    .bottomright>button{
+        height: 20px;
+        font-size: 5px;
+        width: 70px;
+    }
+}
+
+.containermiddle{
+    width: 100%;
+    height: 100%;
+}
+.middlefirst,.middlesecond,.middlethird{
+    display: flex;
+    padding: 4rem;
+    height: 300px;
+    justify-content: space-between;
+    width: 90%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin: 2rem auto;
+}
+.firstdivs{
+    width:32%;
+}
+.secondivs,.thirddivs{
+    width:36%;
+}
+.firstdivs>h2{
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #002629;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+}
+.thirddivs>h2{
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #002629;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+}
+.secondivs>h2{
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #002629;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+}
+.firstdivs>p{
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: #A0A7AC;
+}
+.thirddivs>p{
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: #A0A7AC;
+}
+.secondivs>p{
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: #A0A7AC;
+}
+@media only screen and (max-width:935px) {
+    .firstdivs>h2{
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .firstdivs>p{
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .secondivs>p{
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .secondivs>h2{
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .thirddivs>p{
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .thirddivs>h2{
+        font-size: 14px;
+        font-weight: 400;
+    }
+    
+}
+@media only screen and (max-width:720px) {
+    .firstdivs>h2{
+        font-size: 13px;
+        font-weight: 600;
+    }
+    .firstdivs>p{
+        font-size: 7px;
+        font-weight: 400;
+    }
+    .secondivs>p{
+        font-size: 7px;
+        font-weight: 400;
+    }
+    .secondivs>h2{
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .thirddivs>p{
+        font-size: 7px;
+        font-weight: 400;
+    }
+    .thirddivs>h2{
+        font-size: 13px;
+        font-weight: 400;
+    }
+    
+}
+
+@media only screen and (max-width: 375px) {
+    .firstdivs>h2{
+        font-size: 10px;
+        font-weight: 600;
+    }
+    .firstdivs>p{
+        font-size: 5px;
+        font-weight: 400;
+    }
+    .secondivs>p{
+        font-size: 5px;
+        font-weight: 400;
+    }
+    .secondivs>h2{
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .thirddivs>p{
+        font-size: 5px;
+        font-weight: 400;
+    }
+    .thirddivs>h2{
+        font-size: 10px;
+        font-weight: 400;
+    }
+}
+.containerfooter{
+    width:100%;
+    top: 260%;
+    position: absolute;
+    height: 100vh;
+}
+.middlemes{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 60%;
+    height: 35%;
+    position: absolute;
+    background: #fff;
+    z-index: 1;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    transform: translate(32%,20%);
+    border-radius: 15px;
+}
+.middlemes>h2{
+    font-size: 24px;
+    text-transform: capitalize;
+    color: #05252F;
+    font-weight: 1000;
+    font-family: 'Poppins', sans-serif;
+}
+.middlemes>button{
+    width: 320px;
+    border-radius: 30px;
+    height: 65px;
+    text-transform: capitalize;
+    background: #FE52C0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+}
+.footer{
+   position: absolute;
+   width: 100%;
+    bottom: 0%;
+    display: flex;
+    padding: 9rem 4rem 4rem 4rem;
+    color: #fff;
+    justify-content: space-between;
+    height: 70%;
+    background: #00252E;
+}
+.fotter1{
+    flex: 0.4;
+    height: 100%;
+    width: 100%;
+    font-size: 13px;
+    letter-spacing: 1.08;
+    padding-right: 2rem;
+    font-family: 'Open Sans', sans-serif;
+}
+.fotter1>img{
+    filter: invert(1);
+    width: 200px;
+    height: 30px;
+    margin-bottom: 2rem;
+}
+.fotter2{
+    flex: 0.2;
+    height: 100%;
+    width: 100%;
+    margin-top: 3rem;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+.fotter2>p:nth-child(1){
+    text-transform: capitalize;
+}
+.fotter2>p:nth-child(2){
+    text-transform: capitalize;
+}
+.fotter2>p:nth-child(3){
+    text-transform: uppercase;
+}
+.fotter4{
+    flex: 0.2;
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    font-size: 14px;
+    margin-top: 3rem;
+}
+.fotter4>p{
+    text-transform: capitalize;
+}
+.fotter3{
+    flex: 0.2;
+    height: 100%;
+    width: 100%;
+    font-size: 10px;
+    display: flex;
+    align-items: flex-end;
+}
+.fotter3>p{
+    text-align: end;
+}
+.smalldiv{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.smalldiv1{
+    display: flex;
+}
+.smalldiv1>img{
+    width: 15px;
+    height: 15px;
+    margin-right: 20px;
+}
+.smalldiv1>p{
+    margin: 0%;
+}
+.smalldiv>img{
+    width: 15px;
+    height: 15px;
+    margin-right: 20px;
+}
+.smalldiv>p{
+    text-align: left;
+    width: 85%;
+}
+.manage{
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+}
+@media only screen and (max-width:375px) {
+    .middlemes>h2{
+        font-size: 12px !important;
+        font-weight: 400 !important;
+    }
+    .middlemes>button{
+        width: 80px !important;
+        font-size: 8px !important;
+        border-radius: 30px !important;
+        height: 35px !important;
+        
+    }
+    .footer{
+        flex-direction: column !important;
+    }
+    .fotter1{
+        font-size: 5px !important;
+    }
+    .fotter2{
+        font-size: 5px !important;
+    }
+    .fotter3{
+        font-size: 5px !important;
+    }
+    .fotter4{
+        font-size: 5px !important;
+    }
+}
+@media only screen and (max-width:935px) {
+    .middlemes>h2{
+        font-size: 18px;
+        font-weight: 800;
+    }
+    .middlemes>button{
+        width: 240px;
+        font-size: 12px;
+        border-radius: 30px;
+        height: 45px;
+        
+    }
+}
+@media only screen and (max-width:721px) {
+    .middlemes>h2{
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .middlemes>button{
+        width: 100px;
+        font-size: 10px;
+        border-radius: 30px;
+        height: 20px;
+        
+    }
+    .footer{
+        flex-direction: column;
+    }
+    .fotter1{
+        font-size: 5px;
+    }
+    .fotter2{
+        font-size: 5px;
+    }
+    .fotter3{
+        font-size: 5px;
+    }
+    .fotter4{
+        font-size: 5px;
+    }
+}
